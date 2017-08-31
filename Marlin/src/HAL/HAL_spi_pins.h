@@ -23,8 +23,6 @@
 #ifndef HAL_SPI_PINS_H_
 #define HAL_SPI_PINS_H_
 
-#include "../../MarlinConfig.h"
-
 #ifdef ARDUINO_ARCH_SAM
   #include "HAL_DUE/spi_pins.h"
 
@@ -41,4 +39,4 @@
   #error "Unsupported Platform!"
 #endif
 
-#endif /* HAL_SPI_PINS_H_ */
+#endif // HAL_SPI_PINS_H_
